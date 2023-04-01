@@ -26,8 +26,8 @@ ssh-add Athena-1729
 echo "Creating config file\n"
 touch config
 echo -e "#Athena-2003\n Host github.com-Athena-2003\n \tHostName github.com\n \tUser git\n \tIdentityFile ~/.ssh/Athena-2003\n \n #Athena-1729\n Host github.com-Athena-1729\n \tHostName github.com\n \tUser git\n \tIdentityFile ~/.ssh/Athena-1729" >> config
-echo "Athena-2003 public key:\n"
+echo -e "Athena-2003 public key:\n"
 cat Athena-2003.pub
-echo "Athena-1729 public key:\n"
+echo -e "Athena-1729 public key:\n"
 cat Athena-1729.pub
 
